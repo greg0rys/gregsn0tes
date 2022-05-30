@@ -1,0 +1,31 @@
+{
+
+  "name": "queasyvirtualorders",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+	  "build": "gem install jekyll bundler && bundle init && echo gem 'jekyll'>> Gemfile"  },
+
+  "keywords": [],
+
+  "author": "",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "gem": "^2.4.3",
+
+    "jekyll": "^3.0.0-beta1"
+
+  }
+
+}
