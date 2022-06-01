@@ -1,13 +1,21 @@
-
 <head>
-  <style>
-    h1{
-      width: 50%;
-      margin: auto;
-      font-family: monospace;
-    }
-  </style>
-  <title> {{ page.title }} </title>
+    <style>
+        h1 {
+            width: 50%;
+            margin: auto;
+            font-family: monospace;
+        }
+        
+        pre {
+            background: beige;
+        }
+    </style>
+    <title>{{ page.title }}</title>
 </head>
 <h1>{{ page.title }}</h1>
+
+<div>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.url }}">{{ item.title }}</a> {% endfor %}
+</div>
 {{ content }}
