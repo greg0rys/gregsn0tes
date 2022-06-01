@@ -1,27 +1,21 @@
 <head>
-    <style>
-        h1 {
-            width: 50%;
-            margin: auto;
-            font-family: monospace;
-            margin: auto;
-        }
-        
-        pre {
-            background: beige;
-            width: fit-content;
-            margin: auto;
-        }
-    </style>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
-<h1>{{ page.title }}</h1>
+<div class="container">
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
 
-<div>
-    {% for item in site.posts %}
-    <h2>{{ item.title }}</h2>
-    <pre>{{ item.content }}</pre> {% endfor %}
+    <aside>
+        {% for item in site.posts %}
+        <h5>{{ item.title }}</h5>
+        <p>{{ item.url }}</p>
+        {% endfor %}
+    </aside>
+    <main>{{ content }}</main>
+
+    <footer>
+        <p>&copy; {{ site.title }}</p>
+    </footer>
 </div>
-
-{{ content }}
