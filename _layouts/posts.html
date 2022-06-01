@@ -10,7 +10,9 @@
     <aside>
         {% for item in site.posts %}
         <h5>{{ item.title }}</h5>
-        <p>{{ item.url }}</p>
+        <ul>
+            <li><a href="{{item.url}}">{{item.title}}</a></li>
+        </ul>
         {% endfor %}
     </aside>
     <main>{{ content }}</main>
