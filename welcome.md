@@ -11,3 +11,9 @@ __        __   _                          _
                                             
 
 </pre>
+
+{% highlight java %}
+for(Highlight h : highlights){
+    System.out.println(h.getName());
+}
+{% endhighlight %}
