@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+            grid-template-areas: "nav nav nav" "header header header";
+        }
+        
+        nav {
+            grid-area: nav;
+        }
+        
+        nav>ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav>ul>li {
+            display: inline-block;
+            padding: 10px;
+        }
+        
+        header {
+            font-family: monospace;
+            grid-area: header;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="/welcome.html">Welcome</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
