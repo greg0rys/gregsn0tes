@@ -14,8 +14,4 @@
 </head>
 <h1>{{ page.title }}</h1>
 
-<div>
-    {% for item in site.data.navigation %}
-    <a href="{{ item.url }}">{{ item.title }}</a> {% endfor %}
-</div>
-{{ content }}
+{{ page.content }}
