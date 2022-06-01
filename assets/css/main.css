@@ -7,6 +7,10 @@
     grid-template-areas: "sidebar header header" "sidebar main main" "sidebar footer footer";
 }
 
+body {
+    background: beige;
+}
+
 header {
     grid-area: header;
     font-family: monospace;
@@ -28,5 +32,15 @@ footer {
 pre {
     background: beige;
     width: fit-content;
-    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
 }
