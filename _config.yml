@@ -1,1 +1,4 @@
-markdown: kramdown
+group :jekyll_plugins do
+gem "jekyll-admin"
+gem "jemoji"
+end
