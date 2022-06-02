@@ -18,4 +18,5 @@ for(Highlight h : highlights){
 }
 {% endhighlight %}
 
-:+1:
+# I'm Greg! 
+ * and I run this here blog! *
