@@ -13,3 +13,7 @@ System.out.println('Welcome');
     alias blankgc="git commit -m 'blank commit'" # for when you don't want to type a message
     alias origin ="git push origin master" #make these changes perm on the upstream
    ```
+*if you would like to use this custom .bashrc in your environment please run the following command after cloning or at any time really*
+```bash
+source .bashrc
+```
