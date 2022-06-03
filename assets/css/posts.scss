@@ -11,3 +11,11 @@ $font-stack: "Menlo";
     grid-template-areas: "header header header" "aside main main" "aside footer footer";
     min-height: 100vh;
 }
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
