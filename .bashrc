@@ -4,4 +4,4 @@ alias gs="git status"
 alias jb="jekyll b"
 alias addAll="git add ."
 alias blankgc="git commit -m 'blank commit'"
-
+alias origin="git push origin master"
