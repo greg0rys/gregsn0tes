@@ -27,5 +27,7 @@ aside {
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: aside;
+  -webkit-box-shadow: 2px 1px 2px 1px slateblue;
+          box-shadow: 2px 1px 2px 1px slateblue;
 }
 /*# sourceMappingURL=posts.css.map */
