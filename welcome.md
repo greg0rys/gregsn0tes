@@ -2,6 +2,9 @@
 layout: posts
 title: welcome!
 ---
+
+<div class="container">
+<header>
 <pre>
 __        __   _                          _ 
 \ \      / /__| | ___ ___  _ __ ___   ___| |
@@ -11,7 +14,7 @@ __        __   _                          _
                                             
 
 </pre>
-
+</header>
 {% highlight java %}
 for(Highlight h : highlights){
     System.out.println(h.getName());

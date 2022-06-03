@@ -1,21 +1,4 @@
-<head>
-    <title>welcome!</title>
-    <link rel="stylesheet" href="./assets/css/posts.scss" />
-</head>
-<div class="container">
-    <header>
-        <h1>welcome!</h1>
-    </header>
-
-    <aside>
-        
-        <h5>Dental Work</h5>
-        <ul>
-            <li><a href="/2022/06/01/dental.html">Dental Work</a></li>
-        </ul>
-        
-    </aside>
-    <main><div class="container">
+I"È<div class="container">
 <header>
 <pre>
 __        __   _                          _ 
@@ -36,12 +19,4 @@ __        __   _                          _
 # I'm Greg! 
  * and I run this here blog! *
 </div>
-</main>
-
-    <footer>
-        <p>&copy; </p>
-        <p>
-            <?= "hello world!"?>
-        </p>
-    </footer>
-</div>
+:ET
