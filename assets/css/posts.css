@@ -1,0 +1,31 @@
+* {
+  font-family: 100% "Menlo";
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (minmax(200px, 1fr))[auto-fit];
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template: repeat(auto-fit, minmax(200px, 1fr))/repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  grid-auto-flow: column;
+      grid-template-areas: "header header header" "aside main main" "aside footer footer";
+  min-height: 100vh;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  background-color: #f5f5f5;
+}
+
+aside {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: aside;
+}
+/*# sourceMappingURL=posts.css.map */

@@ -1,0 +1,63 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -ms-grid-rows: (minmax(200px, 1fr))[auto-fit];
+      grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+      grid-template-areas: "sidebar header header header" "sidebar main main main" "sidebar footer footer footer";
+}
+
+body {
+  background: beige;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  font-family: monospace;
+  text-align: center;
+}
+
+aside {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: sidebar;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: main;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+pre {
+  background: beige;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  list-style-type: none;
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */
