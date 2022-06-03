@@ -105,6 +105,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-admin
+  jekyll-sass-converter
   jemoji
 
 BUNDLED WITH
