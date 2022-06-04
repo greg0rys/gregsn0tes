@@ -1,6 +1,4 @@
-```java 
-System.out.println('Welcome');
-```
+### GregsN0tes :alien:
 
 <div align="center">
   <h2> Custom .bashrc </h2>
